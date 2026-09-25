@@ -88,85 +88,135 @@
         <section id="projects" class="space-y-6">
             <div>
                 <h2 class="text-2xl font-bold text-slate-900">Featured Projects</h2>
-                <p class="text-slate-600 text-sm mt-1">Real-world case studies in automated ingestion, web scraping, ETL pipelines, and cloud deployment.</p>
+                <p class="text-slate-600 text-sm mt-1">Real-world case studies in automated data pipelines, AI integrations, and cloud infrastructure.</p>
             </div>
 
             <!-- Cards Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-                <!-- Project 1 Card -->
+                <!-- Project 01 Card -->
                 <div class="bg-white rounded-xl border border-slate-200/80 shadow-sm hover:shadow-md transition flex flex-col justify-between overflow-hidden">
-                    <div class="p-6 space-y-3">
-                        <div class="w-10 h-10 rounded-lg bg-teal-50 text-teal-600 flex items-center justify-center font-bold text-sm">
-                            01
+                    <div class="p-6 space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-semibold uppercase tracking-wider text-teal-600">AI Automation & CLI Tooling</span>
+                            <div class="w-8 h-8 rounded-lg bg-teal-50 text-teal-600 flex items-center justify-center font-bold text-xs">
+                                01
+                            </div>
                         </div>
                         <h3 class="text-lg font-bold text-slate-900 leading-snug">
-                            Making Legal Precedents Accessible
+                            Automated AI Command Assistant
                         </h3>
-                        <p class="text-xs font-medium text-slate-500 uppercase tracking-wider">
-                            Legal Ruling Search Pipeline
+                        <p class="text-slate-600 text-xs leading-relaxed">
+                            <strong class="text-slate-800">The Problem:</strong> System tools require memorizing rigid commands, and standard AI tools can generate untested steps that cause system errors.
                         </p>
                         <p class="text-slate-600 text-xs leading-relaxed">
-                            <strong class="text-slate-800">The Problem:</strong> Judicial portals host PDF rulings that are difficult to search programmatically.
-                        </p>
-                        <p class="text-slate-600 text-xs leading-relaxed">
-                            <strong class="text-slate-800">The Solution:</strong> Built an automated pipeline to systematically retrieve, extract, and structure court records into actionable data models.
+                            <strong class="text-slate-800">The Solution:</strong> Built a smart command-line assistant that translates plain English into safe execution plans with built-in user confirmation and automatic error recovery.
                         </p>
                     </div>
-                    <div class="px-6 pb-6 pt-2">
-                        <a href="projects/legal-parser.html" class="block w-full text-center py-2 px-4 bg-slate-100 hover:bg-teal-50 text-slate-700 hover:text-teal-700 font-medium text-xs rounded-lg transition border border-slate-200/60">
+                    <div class="px-6 pb-6 pt-2 space-y-4">
+                        <div class="flex flex-wrap gap-1.5">
+                            <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded">Python</span>
+                            <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded">Google GenAI SDK</span>
+                            <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded">Pydantic</span>
+                            <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded">CLI</span>
+                        </div>
+                        <a href="projects/agent-loop.html" class="block w-full text-center py-2 px-4 bg-slate-100 hover:bg-teal-50 text-slate-700 hover:text-teal-700 font-medium text-xs rounded-lg transition border border-slate-200/60">
                             Read the Full Case Study &rarr;
                         </a>
                     </div>
                 </div>
 
-                <!-- Project 2 Card -->
+                <!-- Project 02 Card -->
                 <div class="bg-white rounded-xl border border-slate-200/80 shadow-sm hover:shadow-md transition flex flex-col justify-between overflow-hidden">
-                    <div class="p-6 space-y-3">
-                        <div class="w-10 h-10 rounded-lg bg-teal-50 text-teal-600 flex items-center justify-center font-bold text-sm">
-                            02
+                    <div class="p-6 space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-semibold uppercase tracking-wider text-teal-600">Data Pipelines & Web Scraping</span>
+                            <div class="w-8 h-8 rounded-lg bg-teal-50 text-teal-600 flex items-center justify-center font-bold text-xs">
+                                02
+                            </div>
                         </div>
                         <h3 class="text-lg font-bold text-slate-900 leading-snug">
-                            Transforming Historical Datasets
+                            Global Sports Data Lakehouse
                         </h3>
-                        <p class="text-xs font-medium text-slate-500 uppercase tracking-wider">
-                            Wrestling Data Scraping & ETL
+                        <p class="text-slate-600 text-xs leading-relaxed">
+                            <strong class="text-slate-800">The Problem:</strong> Decades of historical sports results were locked in inconsistent web tables and raw public data endpoints across the web.
                         </p>
                         <p class="text-slate-600 text-xs leading-relaxed">
-                            <strong class="text-slate-800">The Problem:</strong> Decades of athletic performance statistics were locked inside legacy, unformatted HTML tables.
-                        </p>
-                        <p class="text-slate-600 text-xs leading-relaxed">
-                            <strong class="text-slate-800">The Solution:</strong> Programmed robust web scrapers and parsing logic to clean and convert raw data into structured JSON datasets.
+                            <strong class="text-slate-800">The Solution:</strong> Engineered an automated ETL pipeline that collects, cleans, and standardizes multi-source data into structured datasets ready for analytics.
                         </p>
                     </div>
-                    <div class="px-6 pb-6 pt-2">
+                    <div class="px-6 pb-6 pt-2 space-y-4">
+                        <div class="flex flex-wrap gap-1.5">
+                            <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded">Python</span>
+                            <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded">Pandas</span>
+                            <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded">ETL Pipelines</span>
+                            <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded">REST APIs</span>
+                        </div>
                         <a href="projects/japan-wrestling.html" class="block w-full text-center py-2 px-4 bg-slate-100 hover:bg-teal-50 text-slate-700 hover:text-teal-700 font-medium text-xs rounded-lg transition border border-slate-200/60">
                             Read the Full Case Study &rarr;
                         </a>
                     </div>
                 </div>
 
-                <!-- Project 3 Card -->
+                <!-- Project 03 Card -->
                 <div class="bg-white rounded-xl border border-slate-200/80 shadow-sm hover:shadow-md transition flex flex-col justify-between overflow-hidden">
-                    <div class="p-6 space-y-3">
-                        <div class="w-10 h-10 rounded-lg bg-teal-50 text-teal-600 flex items-center justify-center font-bold text-sm">
-                            03
+                    <div class="p-6 space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-semibold uppercase tracking-wider text-teal-600">Cloud Services & AI Matching</span>
+                            <div class="w-8 h-8 rounded-lg bg-teal-50 text-teal-600 flex items-center justify-center font-bold text-xs">
+                                03
+                            </div>
                         </div>
                         <h3 class="text-lg font-bold text-slate-900 leading-snug">
-                            Cloud-Native Web Infrastructure
+                            Intelligent File & Catalog Synchronizer
                         </h3>
-                        <p class="text-xs font-medium text-slate-500 uppercase tracking-wider">
-                            Docker & GCP Deployment
+                        <p class="text-slate-600 text-xs leading-relaxed">
+                            <strong class="text-slate-800">The Problem:</strong> Digital media files often suffer from naming mismatches, missing metadata, and translation errors that break automated organization.
                         </p>
                         <p class="text-slate-600 text-xs leading-relaxed">
-                            <strong class="text-slate-800">The Problem:</strong> Demonstrating production-grade engineering principles beyond standalone local scripts.
-                        </p>
-                        <p class="text-slate-600 text-xs leading-relaxed">
-                            <strong class="text-slate-800">The Solution:</strong> Containerized this website using Docker and configured automated CI/CD deployments to Google Cloud Platform.
+                            <strong class="text-slate-800">The Solution:</strong> Created a cloud-backed tool that scans local drives and uses a two-stage matching engine to resolve and organize files against web catalogs.
                         </p>
                     </div>
-                    <div class="px-6 pb-6 pt-2">
-                        <a href="projects/cloud-website.html" class="block w-full text-center py-2 px-4 bg-slate-100 hover:bg-teal-50 text-slate-700 hover:text-teal-700 font-medium text-xs rounded-lg transition border border-slate-200/60">
+                    <div class="px-6 pb-6 pt-2 space-y-4">
+                        <div class="flex flex-wrap gap-1.5">
+                            <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded">Python</span>
+                            <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded">FastAPI</span>
+                            <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded">Docker</span>
+                            <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded">GCP Cloud Run</span>
+                        </div>
+                        <a href="projects/bjj-list.html" class="block w-full text-center py-2 px-4 bg-slate-100 hover:bg-teal-50 text-slate-700 hover:text-teal-700 font-medium text-xs rounded-lg transition border border-slate-200/60">
+                            Read the Full Case Study &rarr;
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 04 Card -->
+                <div class="bg-white rounded-xl border border-slate-200/80 shadow-sm hover:shadow-md transition flex flex-col justify-between overflow-hidden">
+                    <div class="p-6 space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-semibold uppercase tracking-wider text-teal-600">Cloud Infrastructure & DevOps</span>
+                            <div class="w-8 h-8 rounded-lg bg-teal-50 text-teal-600 flex items-center justify-center font-bold text-xs">
+                                04
+                            </div>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 leading-snug">
+                            Cloud-Native Engineering Portfolio
+                        </h3>
+                        <p class="text-slate-600 text-xs leading-relaxed">
+                            <strong class="text-slate-800">The Problem:</strong> Traditional static portfolios fail to demonstrate production cloud deployment, containerization, and modern web delivery.
+                        </p>
+                        <p class="text-slate-600 text-xs leading-relaxed">
+                            <strong class="text-slate-800">The Solution:</strong> Designed and containerized this portfolio using Docker and Nginx, with automated deployments on Google Cloud Platform.
+                        </p>
+                    </div>
+                    <div class="px-6 pb-6 pt-2 space-y-4">
+                        <div class="flex flex-wrap gap-1.5">
+                            <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded">Docker</span>
+                            <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded">Nginx</span>
+                            <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded">Google Cloud</span>
+                            <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded">Tailwind CSS</span>
+                        </div>
+                        <a href="projects/portfolio-site.html" class="block w-full text-center py-2 px-4 bg-slate-100 hover:bg-teal-50 text-slate-700 hover:text-teal-700 font-medium text-xs rounded-lg transition border border-slate-200/60">
                             Read the Full Case Study &rarr;
                         </a>
                     </div>
